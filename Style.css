@@ -55,6 +55,13 @@ body{
 .a5:hover{
 	color: var(--primary-gray);
 }
+.a6{
+  text-decoration: none;
+  color: var(--noir);
+}
+.a6:hover{
+  color: var(--noir);
+}
 
 /* b =====> block */
 /* ================================================ */
@@ -88,6 +95,7 @@ body{
 .b9{
 	letter-spacing: 10px;
 	font-size: 40px;
+  background: var(--light-gray);
 }
 
 /* c =====>sous-block */
