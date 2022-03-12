@@ -1,0 +1,217 @@
+/* a ====> lien
+b =====> block
+c =====>sous-block
+btn =====> bouton */
+
+:root {
+  --primary-color: #d35649;
+  --primary-gray: #98a5a5;
+  --primary-blue: #509bd7;
+  --gray-footer: #1f1f1f;
+  --gray-footer-btn: #444;
+  --primary-purple: #575a89;
+  --light-gray: #eee;
+  --blanc : #ffffff;
+  --noir: #000000;
+}
+
+/* a ====> lien */
+/* ================================================ */
+.abc{
+  text-decoration: none;
+}
+.a0{
+  text-decoration: none;
+  color: var(--blanc);
+}
+.a0:hover{
+  color: var(--primary-gray);
+}
+.a1{
+    text-decoration: none;
+}
+.a1:hover{
+    color: var(--primary-gray);
+}
+.a1{
+    color: #fdfdfd;
+}
+.a2:hover{
+  color: var(--primary-color);
+}
+.a2 , .a3{
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.a3:hover{
+  color: var(--primary-color);
+}
+.a4{
+  color: var(--blanc);
+}
+.a4:hover{
+  color: var(--primary-gray);
+}
+
+/* b =====> block */
+/* ================================================ */
+.b1{
+  height: 50vh;
+  background-image: url(Assets/Images/group-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.b3{
+  color: var(--blanc);
+}
+.b4{
+  color: var(--blanc);
+}
+.b5{
+  font-size: 70%;
+}
+.b4 , .b5{
+  background-color: var(--noir);
+  color: var(--blanc);
+}
+.b6{
+  background-color: var(--gray-footer);
+  color: var(--primary-gray);
+}
+
+/* c =====>sous-block */
+/* ================================================ */
+.c1{
+    background:  var(--primary-color);
+    color: #fdfdfd;
+}
+.c2{
+  background: rgba(230, 230, 230, 0.7);
+  width: 50%;
+  text-align: center;
+  margin-left: 20%;
+}
+.c3{
+  color: var(--noir);
+  text-align: center;
+}
+.c4{
+  color: var(--primary-color);
+  font-weight: bold;
+}
+.c5{
+  background-color: var(--primary-color);
+}
+.c6{
+  background-color: var(--primary-gray);
+}
+.c7{
+  background-color: var(--primary-blue);
+}
+.c8{
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+
+}
+.c9{
+  border-radius: 80%;
+  width: 80px;
+  height: 90px;
+  border:2px solid var(--blanc);
+}
+.c9 > i {
+  font-size: 250%;
+  padding-top: 30%;
+  padding-left: 30%;
+}
+
+h2{
+  text-shadow: 2px 2px 4px #000000;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+h4{
+  font-weight: bold;
+  margin-top: 45%;
+}
+
+/* btn =====> bouton  */
+/* ================================================ */
+button.btn0{
+  color: var(--noir);
+  background: rgba(230, 230, 230, 0.7);
+  margin-left: 40%;
+  margin-top: 5%;
+}
+button.btn2{
+  color: var(--primary-color);
+  background: var(--blanc);
+}
+button.btn3{
+  color: var(--primary-gray);
+  background: var(--blanc);
+}
+
+button.btn1{
+  color: var(--blanc);
+  background: var(--primary-color);
+}
+button.btn2{
+  color: var(--blanc);
+  background-color: var(--gray-footer-btn);
+}
+
+/* Place text in the middle of the image */
+.hero-image{
+  background: url("Assets/Icones/group-1.jpg");
+}
+.hero-text {
+  color: var(--blanc);
+}
+
+.input-group1{
+  margin-left: 20% ;
+  color: var(--blanc);
+}
+.input-group2{
+  margin:auto;
+  max-width:300px;
+}
+
+input.input1{
+  background-color: var(--noir);
+}
+.icon1 {
+  margin-left: 50%;
+  font-size: 160% ;
+}
+
+
+
+
+
+.foot{
+  background-color:black;
+  display: flex;
+  justify-content: center;
+  padding: 4% 0 1% 0;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  width: 8%;
+  border-radius: 50%;
+  text-align: center;
+}
+.menu{
+  color: white;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  padding: 1% 0;
+  margin: 2% 0;
+}
