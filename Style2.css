@@ -1,0 +1,26 @@
+.c1{
+    background:  var(--primary-color);
+    color: #fdfdfd;
+}
+.b1{
+  height: 50vh;
+  background-image: url(Assets/Images/group-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.c2{
+  background: rgba(230, 230, 230, 0.7);
+  width: 50%;
+  text-align: center;
+  margin-left: 20%;
+}
+.c3{
+  color: var(--noir);
+  text-align: center;
+}
+button.btn0{
+  color: var(--noir);
+  background: rgba(230, 230, 230, 0.7);
+  margin-left: 40%;
+  margin-top: 5%;
+}

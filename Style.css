@@ -14,10 +14,13 @@ btn =====> bouton */
   --blanc : #ffffff;
   --noir: #000000;
 }
+body{
+	width: 100%;
+}
 
 /* a ====> lien */
 /* ================================================ */
-.abc{
+.abc , .a1{
   text-decoration: none;
 }
 .a0{
@@ -26,9 +29,6 @@ btn =====> bouton */
 }
 .a0:hover{
   color: var(--primary-gray);
-}
-.a1{
-    text-decoration: none;
 }
 .a1:hover{
     color: var(--primary-gray);
@@ -46,11 +46,14 @@ btn =====> bouton */
 .a3:hover{
   color: var(--primary-color);
 }
-.a4{
+.a4 , .a5{
   color: var(--blanc);
 }
 .a4:hover{
   color: var(--primary-gray);
+}
+.a5:hover{
+	color: var(--primary-gray);
 }
 
 /* b =====> block */
@@ -61,22 +64,30 @@ btn =====> bouton */
   background-size: cover;
   background-position: center;
 }
-.b3{
-  color: var(--blanc);
-}
-.b4{
-  color: var(--blanc);
-}
-.b5{
-  font-size: 70%;
-}
-.b4 , .b5{
-  background-color: var(--noir);
+.b3 , .b4 , .b6{
   color: var(--blanc);
 }
 .b6{
+  font-size: 70%;
+}
+.b4 , .b6{
+  background-color: var(--noir);
+}
+.b7{
   background-color: var(--gray-footer);
   color: var(--primary-gray);
+}
+.b8{
+	width: 50%;
+	padding: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width: 250px;
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.b9{
+	letter-spacing: 10px;
+	font-size: 40px;
 }
 
 /* c =====>sous-block */
@@ -108,11 +119,6 @@ btn =====> bouton */
 .c7{
   background-color: var(--primary-blue);
 }
-.c8{
-  border-top: 1px solid;
-  border-bottom: 1px solid;
-
-}
 .c9{
   border-radius: 80%;
   width: 80px;
@@ -125,7 +131,9 @@ btn =====> bouton */
   padding-left: 30%;
 }
 
-h2{
+
+/* ================================================ */
+.h2-1{
   text-shadow: 2px 2px 4px #000000;
   padding-left: 10%;
   padding-top: 5%;
@@ -133,6 +141,11 @@ h2{
 h4{
   font-weight: bold;
   margin-top: 45%;
+}
+.h2-2{
+	color: var(--primary-color);
+	margin-left: 35% ;
+
 }
 
 /* btn =====> bouton  */
@@ -143,28 +156,30 @@ button.btn0{
   margin-left: 40%;
   margin-top: 5%;
 }
-button.btn2{
-  color: var(--primary-color);
-  background: var(--blanc);
-}
-button.btn3{
-  color: var(--primary-gray);
-  background: var(--blanc);
-}
-
 button.btn1{
   color: var(--blanc);
   background: var(--primary-color);
+}
+button.btn2{
+  color: var(--primary-color);
+  background: var(--blanc);
 }
 button.btn2{
   color: var(--blanc);
   background-color: var(--gray-footer-btn);
 }
 
-/* Place text in the middle of the image */
-.hero-image{
-  background: url("Assets/Icones/group-1.jpg");
+button.btn3{
+  color: var(--primary-gray);
+  background: var(--blanc);
 }
+button.btn4{
+	background: var(--primary-blue);
+	color: var(--blanc);
+}
+
+/* block1 hero*/
+/* ================================================ */
 .hero-text {
   color: var(--blanc);
 }
@@ -185,18 +200,18 @@ input.input1{
   margin-left: 50%;
   font-size: 160% ;
 }
+.icon3{
+	color: var(--primary-blue);
+}
 
-
-
-
-
-.foot{
-  background-color:black;
+/*b5 c'est la partie avec l'icon map-marker-alt */
+/* ================================================ */
+.b5{
   display: flex;
   justify-content: center;
   padding: 4% 0 1% 0;
 }
-.logo{
+.icon2{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -205,7 +220,7 @@ input.input1{
   border-radius: 50%;
   text-align: center;
 }
-.menu{
+.c8{
   color: white;
   border-bottom: 2px solid white;
   border-top: 2px solid white;
@@ -214,4 +229,34 @@ input.input1{
   width: 30%;
   padding: 1% 0;
   margin: 2% 0;
+}
+ul li span{
+	color: var(--primary-blue);
+	font-weight: bold;
+}
+
+
+/*=========================================================================================================================
+=========================================================================================================================*/
+@media only screen and (min-width: 1200px){
+	.rounded-circle{
+		width: 50%;
+		height: 100% ;
+	}
+
+	.rounded-circle3{
+		width: 50%;
+		height: 110% ;
+	}
+}
+@media only screen and (max-width: 810px){
+	.b1{
+		height: auto;
+	}
+	.h2{
+		margin: auto;
+	}
+	.DISPLAY-NONE{
+		display: none;
+	}
 }
