@@ -1,6 +1,7 @@
 /* a ====> lien
 b =====> block
 c =====>sous-block
+p =====> paragraphe
 btn =====> bouton */
 
 :root {
@@ -97,6 +98,9 @@ body{
 	font-size: 40px;
   background: var(--light-gray);
 }
+.b10{
+  background-color: rgba(182, 182, 182, 0.295);
+}
 
 /* c =====>sous-block */
 /* ================================================ */
@@ -106,7 +110,7 @@ body{
 }
 .c2{
   background: rgba(230, 230, 230, 0.7);
-  width: 50%;
+  width: 70%;
   text-align: center;
   margin-left: 20%;
 }
@@ -137,6 +141,14 @@ body{
   font-size: 250%;
   padding-top: 30%;
   padding-left: 30%;
+}
+/* ================================================ */
+.p1{
+  background-image: url(Assets/Images/group-2.svg); 
+  height: 300px;
+  background-color: #d35649;
+  background-size: cover;
+  background-position: cover;
 }
 
 
@@ -233,8 +245,7 @@ input.input1{
   border-bottom: 2px solid white;
   border-top: 2px solid white;
   display: flex;
-  justify-content: center;
-  width: 30%;
+  justify-content: center;;
   padding: 1% 0;
   margin: 2% 0;
 }
@@ -242,6 +253,17 @@ ul li span{
 	color: var(--primary-blue);
 	font-weight: bold;
 }
+
+/* SEARCH */
+label {
+  display: block;
+  font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,label {
+  margin: .4rem 0;
+}
+
 
 
 /*=========================================================================================================================
